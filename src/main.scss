@@ -7,9 +7,8 @@
 #form-control {
   display: flex;
   justify-content: center;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
   & .text-form {
-    flex-grow: 1;
     min-height: 30px;
     padding: 5px 10px;
     margin: 0 15px;
@@ -30,12 +29,13 @@
   }
   .form-group {
     position: relative;
+    flex-grow: 1;
     & .error-message {
       display: none;
       position: absolute;
       font-size: 12px;
       color: red;
-      bottom: -20px;
+      bottom: -30px;
       left: 0;
       &.visible {
         display: block;
