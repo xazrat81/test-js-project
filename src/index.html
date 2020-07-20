@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+<body>
+  <div id="app">
+    <div class="app__title-container">
+      <h1 class="app__title-text">Test application</h1>
+    </div>
+    <div id="form-control">
+      <div class="form-group">
+        <label for="income">
+          Приход
+          <input type="text" class="text-form" id="income">
+        </label>
+        <div class="error-message" id="income-error"></div>
+      </div>
+      <div class="form-group">
+        <label for="outcome">
+          Расход
+          <input type="text" class="text-form" id="outcome">
+        </label>
+        <div class="error-message" id="outcome-error"></div>
+      </div>
+    </div>
+    <div class="app__balance">
+      <p class="app__balance-text">Остаток составляет: <span id="balance"></span></p>
+    </div>
+  </div>
+</body>
+</html>
